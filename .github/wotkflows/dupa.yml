@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - '**'
+
+
+
+jobs:
+  build:
+    steps:
+      - name: test
+        run: echo "${GITHUB_REF_NAME}"
