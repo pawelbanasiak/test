@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dupa
-        uses: pawelbanasiak/github-actions/.github/actions/compress@v2
+        uses: pawelbanasiak/github-actions/.github/actions/compress@master
         with:
           dir: dupa-dir
       - name: test
