@@ -11,12 +11,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: ccc
-        uses: actions/checkout@v3
-        with:
-          repository: pawelbanasiak/github-actions
+#       - name: ccc
+#         uses: actions/checkout@v3
+#         with:
+#           repository: pawelbanasiak/github-actions
       - name: dupa
-        uses: ./.github/actions/compress
+        uses: pawelbanasiak/github-actions/.github/actions/compress@v1
         with:
           dir: dupa-dir
       - name: test
