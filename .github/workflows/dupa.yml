@@ -18,7 +18,7 @@ jobs:
       - name: dupa
         uses: ./.github/actions/compress
         with:
-          dir: dupa
+          dir: dupa-dir
       - name: test
         run: echo "${GITHUB_REF_NAME}"
 
