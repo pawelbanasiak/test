@@ -21,3 +21,4 @@ jobs:
           dir: dupa
       - name: test
         run: echo "${GITHUB_REF_NAME}"
+
