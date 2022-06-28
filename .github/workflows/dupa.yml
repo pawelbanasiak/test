@@ -11,5 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: dupa
+        uses: pawelbanasiak/github-actions/actions/compress@v1
+        with:
+          dir: dupa
       - name: test
         run: echo "${GITHUB_REF_NAME}"
